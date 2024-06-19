@@ -41,6 +41,7 @@
   },
   "devDependencies": {
     "eslint": "^8.57.0",
-    "eslint-config-teacode": "^2.1.0"
+    "eslint-config-teacode": "^2.1.0",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.0"
   }
 }
