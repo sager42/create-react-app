@@ -11,7 +11,7 @@ export default function ButtonAppBar(props) {
       <AppBar position="static" sx={{ backgroundColor: props.bgColor }}>
         <Toolbar>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            News
+            Recipie finder
           </Typography>
           <Button color="inherit">Login</Button>
         </Toolbar>
