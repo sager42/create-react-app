@@ -10,22 +10,17 @@ export const themeOptions = {
   palette: {
     mode: "light",
     primary: {
-      main: "#bb453a",
+      main: "#90caf9",
     },
     secondary: {
-      main: "#f50057",
-    },
-    background: {
-      default: "#581414",
-      paper: "#ffffff",
+      main: "#ce93d8",
     },
   },
   typography: {
-    h3: {
-      fontFamily: "Roboto",
-      fontSize: "1.9rem",
-      fontWeight: 600,
-      lineHeight: 1.98,
+    h3: {fontSize: '1.2rem',
+      '@media (min-width:600px)': {
+        fontSize: '1.5rem',
+      },
     },
     button: {
       fontSize: "2.3rem",
