@@ -21,7 +21,9 @@ export const Searchbar = ({ setRecipes }) => {
   }
 
   useEffect(() => {
+    // eslint-disable-next-line
     fetchRecipes();
+    // eslint-disable-next-line
   }, [query]);
 
   return (
