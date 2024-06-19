@@ -1,4 +1,3 @@
-import "./App.css";
 import { Searchbar } from "./Searchbar.js";
 import Header from "./Header.js";
 import { useState } from "react";
