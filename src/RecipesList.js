@@ -4,13 +4,19 @@ import { styled } from "@mui/system";
 const StyledCard = styled(Card)`
   height: 100%;
   background-color: lightblue;
+  border: 10px solid black;
 `;
 const LabelTypography = styled(Typography)`
   margin-bottom: 16px;
   font-weight: bold;
+  background-color: pink;
+  border: 3px solid black;
 `;
 const IngredientsTypography = styled(Typography)`
   margin-bottom: 16px;
+  text-allign: left;
+  font-size: 14px; /* Adjust font size */
+  /* Other styling properties as needed */
 `;
 
 export const RecipesList = ({ recipes }) => {
@@ -25,7 +31,7 @@ export const RecipesList = ({ recipes }) => {
         <Grid item xs={12} md={6} lg={4}>
           <StyledCard>
             <CardMedia
-              sx={{ height: 140 }}
+              sx={{ height: 200 }}
               image={recipe.recipe.image}
               title="Recipie"
             />
