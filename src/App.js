@@ -1,5 +1,7 @@
+/** @jsxImportSource @emotion/react */
 import { Searchbar } from "./Searchbar.js";
 import Header from "./Header.js";
+import "./App.css";
 import { useState } from "react";
 import { RecipesList } from "./RecipesList.js";
 
